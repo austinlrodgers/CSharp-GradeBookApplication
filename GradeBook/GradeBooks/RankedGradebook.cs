@@ -21,18 +21,6 @@ namespace GradeBook.GradeBooks
             {
                 letterGrade = 'A';
             }
-            else if (grades[(threshold * 2) - 1] <= averageGrade)
-            {
-                letterGrade = 'B';
-            }
-            else if (grades[(threshold * 3) - 1] <= averageGrade)
-            {
-                letterGrade = 'C';
-            }
-            else if (grades[(threshold * 4) - 1] <= averageGrade)
-            {
-                letterGrade = 'D';
-            }
 
             return letterGrade;
         }
