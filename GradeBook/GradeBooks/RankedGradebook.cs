@@ -17,6 +17,7 @@ namespace GradeBook.GradeBooks
             {
                 throw new InvalidOperationException();
             }
+
             return letterGrade;
         }
     }
